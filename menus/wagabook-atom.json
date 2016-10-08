@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle wagabook-atom",
+        "command": "wagabook-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "wagabook-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "wagabook-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
